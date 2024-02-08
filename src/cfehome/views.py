@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def home_page(request):
-    return("Hello world oecd-django")
+    return HttpResponse("Hello world oecd-django")
